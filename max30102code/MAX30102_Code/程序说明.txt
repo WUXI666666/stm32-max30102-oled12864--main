@@ -1,0 +1,21 @@
+软件实现：ST标准库3.5
+硬件连接引脚关系：
+1.MAX30102<->STM32:
+	VCC<->3.3V
+	GND<->GND
+	SCL <->PB6
+	SDA<->PB7
+	INT <->PB5
+2.0.96inch OLED<->STM32:
+	VCC<->3.3V
+	GND<->GND
+	SCL<->PA4
+	SDA<->PA3
+	RST<->PA2
+	DC<->PA1
+	CS<->PA0
+3.USB-TTL<->STM32:
+	5V<->5V
+	GND<->GND
+	RXD<->PA9
+	TXD<->PA10
